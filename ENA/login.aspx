@@ -19,9 +19,9 @@
                    <asp:TextBox ID="TextUsuario" runat="server"></asp:TextBox></td></tr>
                  <tr><td>
                      <asp:Label ID="Label2" runat="server" Text="Label">Password: </asp:Label></td><td>
-                         <asp:TextBox ID="TestPassword" runat="server" TextMode="Password"></asp:TextBox></td></tr>
+                         <asp:TextBox ID="TextPassword" runat="server" TextMode="Password"></asp:TextBox></td></tr>
                <tr><td colspan="2">
-                   <asp:Button ID="BtIngresar" runat="server" Text="Button" />
+                   <asp:Button ID="BtIngresar" runat="server" Text="Button" OnClick="BtIngresar_Click" />
                    </td></tr>
            </table>
         </div>

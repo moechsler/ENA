@@ -49,13 +49,13 @@ namespace ENA {
         protected global::System.Web.UI.WebControls.Label Label2;
         
         /// <summary>
-        /// Control TestPassword.
+        /// Control TextPassword.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TestPassword;
+        protected global::System.Web.UI.WebControls.TextBox TextPassword;
         
         /// <summary>
         /// Control BtIngresar.

@@ -13,5 +13,13 @@ namespace ENA
         {
 
         }
+
+        protected void BtIngresar_Click(object sender, EventArgs e)
+        {
+            if (TextPassword.Text == "marco" && TextPassword.Text == "123"){
+
+                Response.Redirect ("Default.aspx");
+            } 
+        }
     }
 }
